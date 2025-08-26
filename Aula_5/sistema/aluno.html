@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Escolar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sistema de Cadastro Escolar</h1>
+        <p>Bem-vindos ao sistema de cadastro da nossa Escola Virtual</p>
+
+        <h2>Menu de cadastro</h2>
+        <a href="aluno.html"><button>Cadastrar Aluno</button></a>
+        <a href="curso.html"><button>Cadastrar Curso</button></a>
+        <a href="livro.html"><button>Cadastrar Livro</button></a>
+        <a href="professor.html"><button>Cadastrar Professor</button></a>
+    </div>
+
+    <div class="formulario">
+        <h2>Cadastro de Aluno</h2>
+        <form action="">
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome">
+        </form>
+    </div>
+
+    <div class="formulario">
+    <h2>Cadastro de Aluno</h2>
+    <form action="">
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome"><br><br>
+
+        <label for="data">Data de Nascimento:</label><br>
+        <input type="date" id="data" name="data"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="telefone">Telefone:</label><br>
+        <input type="tel" id="telefone" name="telefone"><br><br>
+
+        <label for="serie">Série/Ano:</label><br>
+        <select id="serie" name="serie">
+            <option value="">Selecione a série</option>
+            <option value="6ano">6º Ano</option>
+            <option value="7ano">7º Ano</option>
+            <option value="8ano">8º Ano</option>
+            <option value="9ano">9º Ano</option>
+            <option value="1medio">1º Ano Ensino Médio</option>
+            <option value="2medio">2º Ano Ensino Médio</option>
+            <option value="3medio">3º Ano Ensino Médio</option>
+        </select><br><br>
+
+>
+    </form>
+
+     <label for="periodo">Período:</label><br>
+        <select id="periodo" name="periodo">
+            <option value="">Selecione o período</option>
+            <option value="manha">Manhã</option>
+            <option value="tarde">Tarde</option>
+            <option value="noite">Noite</option>
+        </select><br><br>
+
+         <label>Atividades Extras:</label><br>
+          <input type="checkbox" id="musica" name="atividades" value="Música">
+        <label for="musica">Música</label><br>
+
+          <label for="observacoes">Observações:</label><br>
+        <textarea id="observacoes" name="observacoes" rows="4" cols="40" placeholder="Escreva algo sobre o aluno..."></textarea><br><br>
+
+        <button type="submit">Cadastrar</button>
+    </form>
+</div>
+</div>
+</body>
+</html>
