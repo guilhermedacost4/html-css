@@ -1,0 +1,33 @@
+body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* estilo padrão dos blocos */
+    .bloco {
+        padding: 20px;
+        margin: 0;
+        border-bottom: 2px solid #ccc;
+    }
+
+    /* Bloco 1 */
+    .bloco1 {
+        background-color: #f0e68c; /* amarelinho */
+    }
+
+    /* Bloco 2 */
+    .bloco2 {
+        background-color: #87ceeb; /* azul claro */
+        color: white;
+    }
+
+    /* Bloco 3 */
+    .bloco3 {
+        background-color: #f8d7f5; /* rosa claro */
+        color: purple;
+    }
+
+    h2 {
+        margin-top: 0;
+    }
