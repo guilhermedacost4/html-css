@@ -1,1 +1,89 @@
-body { font-family: Arial; background-color: #f5f5f5; color: #333; text-align: center; margin-top: 50px; } 
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+p {
+    color: darkred;
+    font-size: 14px;
+}
+
+h1 {
+    background-color: yellow;
+    color: black;
+}
+
+h2 {
+    color: green;
+}
+
+h3 {
+    color: blue;
+}
+
+h4 {
+    color: purple;
+}
+
+/* Caixa simples */
+.caixa1 {
+    border: 3px solid lightblue;
+    background-color: pink;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Centralizado */
+.centralizado {
+    text-align: center;
+    color: red;
+}
+
+/* Estilos de fontes */
+.arial {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: darkred;
+}
+
+.negrito { font-weight: bold; }
+.italico { font-style: italic; }
+.sublinhado { text-decoration: underline; }
+.destaque { background-color: yellow; }
+
+/* Estilos individuais */
+.estilo1 { color: red; }
+.estilo2 { color: blue; }
+
+/* Div com bordas coloridas */
+.dentro-div {
+    border: 5px solid;
+    border-color: red green blue yellow;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.dentro-div h2 {
+    color: black;
+}
+
+.vermelho { color: red; }
+.verde { color: green; }
+.azul { color: blue; }
+
+/* Caixa estilizada */
+.caixa-estilizada {
+    border: 2px solid gray;
+    background-color: #eee;
+    padding: 5px;
+}
+
+/* Links */
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
