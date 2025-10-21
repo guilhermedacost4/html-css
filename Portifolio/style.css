@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif; /* Usando a fonte sugerida no HTML */
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* CLASSES GERAIS */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+/* CABEÇALHO E APRESENTAÇÃO */
+#apresentacao {
+    background: #2c3e50; /* Azul escuro, profissional */
+    color: #ecf0f1;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.foto-perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Para deixar a foto redonda */
+    object-fit: cover; /* Garante que a foto cubra o círculo */
+    margin-bottom: 15px;
+    border: 5px solid #3498db; /* Borda azul clara */
+}
+
+#apresentacao h1 {
+    margin-bottom: 5px;
+    font-size: 2.5em;
+}
+
+#apresentacao .subtitulo {
+    color: #bdc3c7;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+/* SEÇÕES GERAIS */
+section {
+    padding: 40px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #2c3e50;
+    font-size: 2em;
+    border-bottom: 3px solid #3498db;
+    display: inline-block;
+    padding-bottom: 5px;
+    width: auto;
+    margin-left: 50%;
+    transform: translateX(-50%); /* Centraliza a borda */
+}
+
+/* HABILIDADES */
+.habilidades-lista {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    text-align: center;
+}
+
+.categoria {
+    flex: 1;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.categoria h3 {
+    color: #3498db;
+    margin-bottom: 15px;
+}
+
+.categoria ul {
+    list-style: none;
+}
+
+.categoria li {
+    padding: 5px 0;
+    border-bottom: 1px dotted #eee;
+}
+
+/* FORMAÇÃO */
+.item-formacao {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-left: 5px solid #2ecc71; /* Cor verde para formação */
+    border-radius: 4px;
+}
+
+.item-formacao h3 {
+    color: #27ae60;
+    margin-bottom: 5px;
+}
+
+/* PROJETOS */
+#projetos {
+    background-color: #ecf0f1;
+}
+
+.projeto-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 25px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.projeto-card img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 5px;
+    margin: 15px 0;
+    border: 1px solid #ccc;
+}
+
+.botao-projeto {
+    display: inline-block;
+    background: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background 0.3s;
+}
+
+.botao-projeto:hover {
+    background: #2980b9;
+}
+
+/* CONTATO */
+#contato a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+#contato a:hover {
+    text-decoration: underline;
+}
+
+/* RODAPÉ */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9em;
+}
+
+footer p {
+    margin: 3px 0;
+}
